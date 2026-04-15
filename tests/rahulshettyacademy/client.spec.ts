@@ -40,7 +40,7 @@ test('signup', async ({ page }) => {
 
 
 
-test.describe.serial.only('E2E Flow', () => {
+test.describe.serial('E2E Flow', () => {
     let sharedPage: Page; // ✅ declared here with let — accessible by all tests below
     let context: BrowserContext;
     let totalProductsSelected: number[] = [];
@@ -50,8 +50,6 @@ test.describe.serial.only('E2E Flow', () => {
         sharedPage = await context.newPage();
         //const action = new Actions(sharedPage); // ✅ no const/let — assigns to outer variable
     });
-
-
 
     test('signin', async () => { // ✅ no {page} — using sharedPage
         await sharedPage.goto('https://rahulshettyacademy.com/client/#/auth/login');
