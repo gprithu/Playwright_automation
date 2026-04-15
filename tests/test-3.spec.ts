@@ -7,7 +7,7 @@ test('My first playwright test', async ({browser}) => {
 
 });
 
-test.only ('My second playwright test', async ({page}) => {
+test ('My second playwright test', async ({page}) => {
 
   await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
   console.log(await page.title());

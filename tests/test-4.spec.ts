@@ -31,7 +31,7 @@ await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
   //console.log(await locators.productname.allTextContents());
 });
 
-test.only('Switch tabs', async ({browser}) => {
+test('Switch tabs', async ({browser}) => {
  const context = await browser.newContext();
  const page = await context.newPage();
  await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
