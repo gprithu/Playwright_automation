@@ -1,5 +1,5 @@
 import {test, expect,Page,BrowserContext} from '@playwright/test'; 
-import { Actions } from '../rahulshettyacademy/actions.spec'; // import Actions from '../rahulshettyacademy/actions.spec';
+import { Actions } from '../rahulshettyacademy/actions'; // import Actions from '../rahulshettyacademy/actions.spec';
 
 let action : Actions;
 
