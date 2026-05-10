@@ -1,9 +1,12 @@
-{
+{ 
+ 
   "name": "playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": { "test:ApiTest3": "npx playwright test tests/Apitesting/TestAPi3.spec.ts --config=playwright.config.getMethods.ts" ,
+  "test:ApiTest4": "npx playwright test tests/Apitesting/TestAPi4.spec.ts --config=playwright.config.getMethods.ts" ,
+  "test:APiTest5": "npx playwright test tests/Apitesting/TestAPi5.spec.ts --config=playwright.config.getMethods.ts"},
   "keywords": [],
   "author": "",
   "license": "ISC",

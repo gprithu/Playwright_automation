@@ -1,0 +1,1280 @@
+Folder PATH listing for volume Windows
+Volume serial number is 642F-B5AF
+C:.
+|   .gitignore
+|   package-lock.json
+|   package.json
+|   playwright.config.ts
+|   structure.txt
+|   
++---.github
+|   \---workflows
+|           playwright.yml
+|           
++---node_modules
+|   |   .package-lock.json
+|   |   
+|   +---.bin
+|   |       playwright
+|   |       playwright-core
+|   |       playwright-core.cmd
+|   |       playwright-core.ps1
+|   |       playwright.cmd
+|   |       playwright.ps1
+|   |       
+|   +---@playwright
+|   |   \---test
+|   |           cli.js
+|   |           index.d.ts
+|   |           index.js
+|   |           index.mjs
+|   |           LICENSE
+|   |           NOTICE
+|   |           package.json
+|   |           README.md
+|   |           reporter.d.ts
+|   |           reporter.js
+|   |           reporter.mjs
+|   |           
+|   +---@types
+|   |   \---node
+|   |       |   assert.d.ts
+|   |       |   async_hooks.d.ts
+|   |       |   buffer.buffer.d.ts
+|   |       |   buffer.d.ts
+|   |       |   child_process.d.ts
+|   |       |   cluster.d.ts
+|   |       |   console.d.ts
+|   |       |   constants.d.ts
+|   |       |   crypto.d.ts
+|   |       |   dgram.d.ts
+|   |       |   diagnostics_channel.d.ts
+|   |       |   dns.d.ts
+|   |       |   domain.d.ts
+|   |       |   events.d.ts
+|   |       |   fs.d.ts
+|   |       |   globals.d.ts
+|   |       |   globals.typedarray.d.ts
+|   |       |   http.d.ts
+|   |       |   http2.d.ts
+|   |       |   https.d.ts
+|   |       |   index.d.ts
+|   |       |   inspector.d.ts
+|   |       |   inspector.generated.d.ts
+|   |       |   LICENSE
+|   |       |   module.d.ts
+|   |       |   net.d.ts
+|   |       |   os.d.ts
+|   |       |   package.json
+|   |       |   path.d.ts
+|   |       |   perf_hooks.d.ts
+|   |       |   process.d.ts
+|   |       |   punycode.d.ts
+|   |       |   querystring.d.ts
+|   |       |   quic.d.ts
+|   |       |   readline.d.ts
+|   |       |   README.md
+|   |       |   repl.d.ts
+|   |       |   sea.d.ts
+|   |       |   sqlite.d.ts
+|   |       |   stream.d.ts
+|   |       |   string_decoder.d.ts
+|   |       |   test.d.ts
+|   |       |   timers.d.ts
+|   |       |   tls.d.ts
+|   |       |   trace_events.d.ts
+|   |       |   tty.d.ts
+|   |       |   url.d.ts
+|   |       |   util.d.ts
+|   |       |   v8.d.ts
+|   |       |   vm.d.ts
+|   |       |   wasi.d.ts
+|   |       |   worker_threads.d.ts
+|   |       |   zlib.d.ts
+|   |       |   
+|   |       +---assert
+|   |       |       strict.d.ts
+|   |       |       
+|   |       +---compatibility
+|   |       |       iterators.d.ts
+|   |       |       
+|   |       +---dns
+|   |       |       promises.d.ts
+|   |       |       
+|   |       +---fs
+|   |       |       promises.d.ts
+|   |       |       
+|   |       +---inspector
+|   |       |       promises.d.ts
+|   |       |       
+|   |       +---path
+|   |       |       posix.d.ts
+|   |       |       win32.d.ts
+|   |       |       
+|   |       +---readline
+|   |       |       promises.d.ts
+|   |       |       
+|   |       +---stream
+|   |       |       consumers.d.ts
+|   |       |       promises.d.ts
+|   |       |       web.d.ts
+|   |       |       
+|   |       +---test
+|   |       |       reporters.d.ts
+|   |       |       
+|   |       +---timers
+|   |       |       promises.d.ts
+|   |       |       
+|   |       +---ts5.6
+|   |       |   |   buffer.buffer.d.ts
+|   |       |   |   globals.typedarray.d.ts
+|   |       |   |   index.d.ts
+|   |       |   |   
+|   |       |   \---compatibility
+|   |       |           float16array.d.ts
+|   |       |           
+|   |       +---ts5.7
+|   |       |   |   index.d.ts
+|   |       |   |   
+|   |       |   \---compatibility
+|   |       |           float16array.d.ts
+|   |       |           
+|   |       +---util
+|   |       |       types.d.ts
+|   |       |       
+|   |       \---web-globals
+|   |               abortcontroller.d.ts
+|   |               blob.d.ts
+|   |               console.d.ts
+|   |               crypto.d.ts
+|   |               domexception.d.ts
+|   |               encoding.d.ts
+|   |               events.d.ts
+|   |               fetch.d.ts
+|   |               importmeta.d.ts
+|   |               messaging.d.ts
+|   |               navigator.d.ts
+|   |               performance.d.ts
+|   |               storage.d.ts
+|   |               streams.d.ts
+|   |               timers.d.ts
+|   |               url.d.ts
+|   |               
+|   +---allure-js-commons
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   \---dist
+|   |       +---cjs
+|   |       |   |   facade.js
+|   |       |   |   facade.js.map
+|   |       |   |   index.js
+|   |       |   |   index.js.map
+|   |       |   |   model.js
+|   |       |   |   model.js.map
+|   |       |   |   package.json
+|   |       |   |   
+|   |       |   \---sdk
+|   |       |       |   index.js
+|   |       |       |   index.js.map
+|   |       |       |   types.js
+|   |       |       |   types.js.map
+|   |       |       |   utils.js
+|   |       |       |   utils.js.map
+|   |       |       |   
+|   |       |       +---reporter
+|   |       |       |   |   factory.js
+|   |       |       |   |   factory.js.map
+|   |       |       |   |   index.js
+|   |       |       |   |   index.js.map
+|   |       |       |   |   LifecycleState.js
+|   |       |       |   |   LifecycleState.js.map
+|   |       |       |   |   Notifier.js
+|   |       |       |   |   Notifier.js.map
+|   |       |       |   |   ReporterRuntime.js
+|   |       |       |   |   ReporterRuntime.js.map
+|   |       |       |   |   testplan.js
+|   |       |       |   |   testplan.js.map
+|   |       |       |   |   types.js
+|   |       |       |   |   types.js.map
+|   |       |       |   |   utils.js
+|   |       |       |   |   utils.js.map
+|   |       |       |   |   
+|   |       |       |   +---utils
+|   |       |       |   |       attachments.js
+|   |       |       |   |       attachments.js.map
+|   |       |       |   |       envInfo.js
+|   |       |       |   |       envInfo.js.map
+|   |       |       |   |       extensions.js
+|   |       |       |   |       extensions.js.map
+|   |       |       |   |       labels.js
+|   |       |       |   |       labels.js.map
+|   |       |       |   |       
+|   |       |       |   \---writer
+|   |       |       |           FileSystemWriter.js
+|   |       |       |           FileSystemWriter.js.map
+|   |       |       |           InMemoryWriter.js
+|   |       |       |           InMemoryWriter.js.map
+|   |       |       |           loader.js
+|   |       |       |           loader.js.map
+|   |       |       |           MessageReader.js
+|   |       |       |           MessageReader.js.map
+|   |       |       |           MessageWriter.js
+|   |       |       |           MessageWriter.js.map
+|   |       |       |           wellKnownCommonWriters.js
+|   |       |       |           wellKnownCommonWriters.js.map
+|   |       |       |           
+|   |       |       \---runtime
+|   |       |               index.js
+|   |       |               index.js.map
+|   |       |               MessageHolderTestRuntime.js
+|   |       |               MessageHolderTestRuntime.js.map
+|   |       |               MessageTestRuntime.js
+|   |       |               MessageTestRuntime.js.map
+|   |       |               NoopTestRuntime.js
+|   |       |               NoopTestRuntime.js.map
+|   |       |               runtime.js
+|   |       |               runtime.js.map
+|   |       |               types.js
+|   |       |               types.js.map
+|   |       |               
+|   |       +---esm
+|   |       |   |   facade.js
+|   |       |   |   facade.js.map
+|   |       |   |   index.js
+|   |       |   |   index.js.map
+|   |       |   |   model.js
+|   |       |   |   model.js.map
+|   |       |   |   package.json
+|   |       |   |   
+|   |       |   \---sdk
+|   |       |       |   index.js
+|   |       |       |   index.js.map
+|   |       |       |   types.js
+|   |       |       |   types.js.map
+|   |       |       |   utils.js
+|   |       |       |   utils.js.map
+|   |       |       |   
+|   |       |       +---reporter
+|   |       |       |   |   factory.js
+|   |       |       |   |   factory.js.map
+|   |       |       |   |   index.js
+|   |       |       |   |   index.js.map
+|   |       |       |   |   LifecycleState.js
+|   |       |       |   |   LifecycleState.js.map
+|   |       |       |   |   Notifier.js
+|   |       |       |   |   Notifier.js.map
+|   |       |       |   |   ReporterRuntime.js
+|   |       |       |   |   ReporterRuntime.js.map
+|   |       |       |   |   testplan.js
+|   |       |       |   |   testplan.js.map
+|   |       |       |   |   types.js
+|   |       |       |   |   types.js.map
+|   |       |       |   |   utils.js
+|   |       |       |   |   utils.js.map
+|   |       |       |   |   
+|   |       |       |   +---utils
+|   |       |       |   |       attachments.js
+|   |       |       |   |       attachments.js.map
+|   |       |       |   |       envInfo.js
+|   |       |       |   |       envInfo.js.map
+|   |       |       |   |       extensions.js
+|   |       |       |   |       extensions.js.map
+|   |       |       |   |       labels.js
+|   |       |       |   |       labels.js.map
+|   |       |       |   |       
+|   |       |       |   \---writer
+|   |       |       |           FileSystemWriter.js
+|   |       |       |           FileSystemWriter.js.map
+|   |       |       |           InMemoryWriter.js
+|   |       |       |           InMemoryWriter.js.map
+|   |       |       |           loader.js
+|   |       |       |           loader.js.map
+|   |       |       |           MessageReader.js
+|   |       |       |           MessageReader.js.map
+|   |       |       |           MessageWriter.js
+|   |       |       |           MessageWriter.js.map
+|   |       |       |           wellKnownCommonWriters.js
+|   |       |       |           wellKnownCommonWriters.js.map
+|   |       |       |           
+|   |       |       \---runtime
+|   |       |               index.js
+|   |       |               index.js.map
+|   |       |               MessageHolderTestRuntime.js
+|   |       |               MessageHolderTestRuntime.js.map
+|   |       |               MessageTestRuntime.js
+|   |       |               MessageTestRuntime.js.map
+|   |       |               NoopTestRuntime.js
+|   |       |               NoopTestRuntime.js.map
+|   |       |               runtime.js
+|   |       |               runtime.js.map
+|   |       |               types.js
+|   |       |               types.js.map
+|   |       |               
+|   |       \---types
+|   |           |   facade.d.ts
+|   |           |   index.d.ts
+|   |           |   model.d.ts
+|   |           |   
+|   |           \---sdk
+|   |               |   index.d.ts
+|   |               |   types.d.ts
+|   |               |   utils.d.ts
+|   |               |   
+|   |               +---reporter
+|   |               |   |   factory.d.ts
+|   |               |   |   index.d.ts
+|   |               |   |   LifecycleState.d.ts
+|   |               |   |   Notifier.d.ts
+|   |               |   |   ReporterRuntime.d.ts
+|   |               |   |   testplan.d.ts
+|   |               |   |   types.d.ts
+|   |               |   |   utils.d.ts
+|   |               |   |   
+|   |               |   +---utils
+|   |               |   |       attachments.d.ts
+|   |               |   |       envInfo.d.ts
+|   |               |   |       extensions.d.ts
+|   |               |   |       labels.d.ts
+|   |               |   |       
+|   |               |   \---writer
+|   |               |           FileSystemWriter.d.ts
+|   |               |           InMemoryWriter.d.ts
+|   |               |           loader.d.ts
+|   |               |           MessageReader.d.ts
+|   |               |           MessageWriter.d.ts
+|   |               |           wellKnownCommonWriters.d.ts
+|   |               |           
+|   |               \---runtime
+|   |                       index.d.ts
+|   |                       MessageHolderTestRuntime.d.ts
+|   |                       MessageTestRuntime.d.ts
+|   |                       NoopTestRuntime.d.ts
+|   |                       runtime.d.ts
+|   |                       types.d.ts
+|   |                       
+|   +---allure-playwright
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   \---dist
+|   |       +---cjs
+|   |       |       autoconfig.js
+|   |       |       autoconfig.js.map
+|   |       |       index.js
+|   |       |       index.js.map
+|   |       |       legacy.js
+|   |       |       legacy.js.map
+|   |       |       model.js
+|   |       |       model.js.map
+|   |       |       package.json
+|   |       |       runtime.js
+|   |       |       runtime.js.map
+|   |       |       testplan.js
+|   |       |       testplan.js.map
+|   |       |       utils.js
+|   |       |       utils.js.map
+|   |       |       
+|   |       +---esm
+|   |       |       autoconfig.js
+|   |       |       autoconfig.js.map
+|   |       |       index.js
+|   |       |       index.js.map
+|   |       |       legacy.js
+|   |       |       legacy.js.map
+|   |       |       model.js
+|   |       |       model.js.map
+|   |       |       package.json
+|   |       |       runtime.js
+|   |       |       runtime.js.map
+|   |       |       testplan.js
+|   |       |       testplan.js.map
+|   |       |       utils.js
+|   |       |       utils.js.map
+|   |       |       
+|   |       \---types
+|   |               autoconfig.d.ts
+|   |               index.d.ts
+|   |               legacy.d.ts
+|   |               model.d.ts
+|   |               runtime.d.ts
+|   |               testplan.d.ts
+|   |               utils.d.ts
+|   |               
+|   +---charenc
+|   |       charenc.js
+|   |       LICENSE.mkd
+|   |       package.json
+|   |       README.js
+|   |       
+|   +---crypt
+|   |       crypt.js
+|   |       LICENSE.mkd
+|   |       package.json
+|   |       README.mkd
+|   |       
+|   +---is-buffer
+|   |   |   index.js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   \---test
+|   |           basic.js
+|   |           
+|   +---md5
+|   |   |   .travis.yml
+|   |   |   LICENSE
+|   |   |   md5.js
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   test.js
+|   |   |   webpack.config.js
+|   |   |   
+|   |   +---demo
+|   |   |       index.html
+|   |   |       
+|   |   \---dist
+|   |           md5.min.js
+|   |           
+|   +---playwright
+|   |   |   cli.js
+|   |   |   index.d.ts
+|   |   |   index.js
+|   |   |   index.mjs
+|   |   |   jsx-runtime.js
+|   |   |   jsx-runtime.mjs
+|   |   |   LICENSE
+|   |   |   NOTICE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   test.d.ts
+|   |   |   test.js
+|   |   |   test.mjs
+|   |   |   ThirdPartyNotices.txt
+|   |   |   
+|   |   +---lib
+|   |   |   |   errorContext.js
+|   |   |   |   fsWatcher.js
+|   |   |   |   index.js
+|   |   |   |   internalsForTest.js
+|   |   |   |   program.js
+|   |   |   |   reportActions.js
+|   |   |   |   testActions.js
+|   |   |   |   util.js
+|   |   |   |   utilsBundle.js
+|   |   |   |   utilsBundleImpl.js
+|   |   |   |   
+|   |   |   +---agents
+|   |   |   |       agentParser.js
+|   |   |   |       copilot-setup-steps.yml
+|   |   |   |       generateAgents.js
+|   |   |   |       playwright-test-coverage.prompt.md
+|   |   |   |       playwright-test-generate.prompt.md
+|   |   |   |       playwright-test-generator.agent.md
+|   |   |   |       playwright-test-heal.prompt.md
+|   |   |   |       playwright-test-healer.agent.md
+|   |   |   |       playwright-test-plan.prompt.md
+|   |   |   |       playwright-test-planner.agent.md
+|   |   |   |       
+|   |   |   +---common
+|   |   |   |       config.js
+|   |   |   |       configLoader.js
+|   |   |   |       esmLoaderHost.js
+|   |   |   |       expectBundle.js
+|   |   |   |       expectBundleImpl.js
+|   |   |   |       fixtures.js
+|   |   |   |       globals.js
+|   |   |   |       ipc.js
+|   |   |   |       poolBuilder.js
+|   |   |   |       process.js
+|   |   |   |       suiteUtils.js
+|   |   |   |       test.js
+|   |   |   |       testLoader.js
+|   |   |   |       testType.js
+|   |   |   |       validators.js
+|   |   |   |       
+|   |   |   +---isomorphic
+|   |   |   |       events.js
+|   |   |   |       folders.js
+|   |   |   |       stringInternPool.js
+|   |   |   |       teleReceiver.js
+|   |   |   |       teleSuiteUpdater.js
+|   |   |   |       testServerConnection.js
+|   |   |   |       testServerInterface.js
+|   |   |   |       testTree.js
+|   |   |   |       types.d.js
+|   |   |   |       
+|   |   |   +---loader
+|   |   |   |       loaderMain.js
+|   |   |   |       
+|   |   |   +---matchers
+|   |   |   |       expect.js
+|   |   |   |       matcherHint.js
+|   |   |   |       matchers.js
+|   |   |   |       toBeTruthy.js
+|   |   |   |       toEqual.js
+|   |   |   |       toHaveURL.js
+|   |   |   |       toMatchAriaSnapshot.js
+|   |   |   |       toMatchSnapshot.js
+|   |   |   |       toMatchText.js
+|   |   |   |       
+|   |   |   +---mcp
+|   |   |   |   \---test
+|   |   |   |           browserBackend.js
+|   |   |   |           generatorTools.js
+|   |   |   |           plannerTools.js
+|   |   |   |           seed.js
+|   |   |   |           streams.js
+|   |   |   |           testBackend.js
+|   |   |   |           testContext.js
+|   |   |   |           testTool.js
+|   |   |   |           testTools.js
+|   |   |   |           
+|   |   |   +---plugins
+|   |   |   |       gitCommitInfoPlugin.js
+|   |   |   |       index.js
+|   |   |   |       webServerPlugin.js
+|   |   |   |       
+|   |   |   +---reporters
+|   |   |   |   |   base.js
+|   |   |   |   |   blob.js
+|   |   |   |   |   dot.js
+|   |   |   |   |   empty.js
+|   |   |   |   |   github.js
+|   |   |   |   |   html.js
+|   |   |   |   |   internalReporter.js
+|   |   |   |   |   json.js
+|   |   |   |   |   junit.js
+|   |   |   |   |   line.js
+|   |   |   |   |   list.js
+|   |   |   |   |   listModeReporter.js
+|   |   |   |   |   markdown.js
+|   |   |   |   |   merge.js
+|   |   |   |   |   multiplexer.js
+|   |   |   |   |   reporterV2.js
+|   |   |   |   |   teleEmitter.js
+|   |   |   |   |   
+|   |   |   |   \---versions
+|   |   |   |           blobV1.js
+|   |   |   |           
+|   |   |   +---runner
+|   |   |   |       dispatcher.js
+|   |   |   |       failureTracker.js
+|   |   |   |       lastRun.js
+|   |   |   |       loaderHost.js
+|   |   |   |       loadUtils.js
+|   |   |   |       processHost.js
+|   |   |   |       projectUtils.js
+|   |   |   |       rebase.js
+|   |   |   |       reporters.js
+|   |   |   |       sigIntWatcher.js
+|   |   |   |       taskRunner.js
+|   |   |   |       tasks.js
+|   |   |   |       testGroups.js
+|   |   |   |       testRunner.js
+|   |   |   |       testServer.js
+|   |   |   |       uiModeReporter.js
+|   |   |   |       vcs.js
+|   |   |   |       watchMode.js
+|   |   |   |       workerHost.js
+|   |   |   |       
+|   |   |   +---third_party
+|   |   |   |       pirates.js
+|   |   |   |       tsconfig-loader.js
+|   |   |   |       
+|   |   |   +---transform
+|   |   |   |       babelBundle.js
+|   |   |   |       babelBundleImpl.js
+|   |   |   |       compilationCache.js
+|   |   |   |       esmLoader.js
+|   |   |   |       portTransport.js
+|   |   |   |       transform.js
+|   |   |   |       
+|   |   |   \---worker
+|   |   |           fixtureRunner.js
+|   |   |           testInfo.js
+|   |   |           testTracing.js
+|   |   |           timeoutManager.js
+|   |   |           util.js
+|   |   |           workerMain.js
+|   |   |           
+|   |   \---types
+|   |           test.d.ts
+|   |           testReporter.d.ts
+|   |           
+|   +---playwright-core
+|   |   |   browsers.json
+|   |   |   cli.js
+|   |   |   index.d.ts
+|   |   |   index.js
+|   |   |   index.mjs
+|   |   |   LICENSE
+|   |   |   NOTICE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   ThirdPartyNotices.txt
+|   |   |   
+|   |   +---bin
+|   |   |       install_media_pack.ps1
+|   |   |       install_webkit_wsl.ps1
+|   |   |       reinstall_chrome_beta_linux.sh
+|   |   |       reinstall_chrome_beta_mac.sh
+|   |   |       reinstall_chrome_beta_win.ps1
+|   |   |       reinstall_chrome_stable_linux.sh
+|   |   |       reinstall_chrome_stable_mac.sh
+|   |   |       reinstall_chrome_stable_win.ps1
+|   |   |       reinstall_msedge_beta_linux.sh
+|   |   |       reinstall_msedge_beta_mac.sh
+|   |   |       reinstall_msedge_beta_win.ps1
+|   |   |       reinstall_msedge_dev_linux.sh
+|   |   |       reinstall_msedge_dev_mac.sh
+|   |   |       reinstall_msedge_dev_win.ps1
+|   |   |       reinstall_msedge_stable_linux.sh
+|   |   |       reinstall_msedge_stable_mac.sh
+|   |   |       reinstall_msedge_stable_win.ps1
+|   |   |       
+|   |   +---lib
+|   |   |   |   androidServerImpl.js
+|   |   |   |   bootstrap.js
+|   |   |   |   browserServerImpl.js
+|   |   |   |   inprocess.js
+|   |   |   |   inProcessFactory.js
+|   |   |   |   mcpBundle.js
+|   |   |   |   mcpBundleImpl.js
+|   |   |   |   outofprocess.js
+|   |   |   |   serverRegistry.js
+|   |   |   |   utils.js
+|   |   |   |   utilsBundle.js
+|   |   |   |   zipBundle.js
+|   |   |   |   zipBundleImpl.js
+|   |   |   |   zodBundle.js
+|   |   |   |   zodBundleImpl.js
+|   |   |   |   
+|   |   |   +---cli
+|   |   |   |       browserActions.js
+|   |   |   |       driver.js
+|   |   |   |       installActions.js
+|   |   |   |       program.js
+|   |   |   |       programWithTestStub.js
+|   |   |   |       
+|   |   |   +---client
+|   |   |   |       android.js
+|   |   |   |       api.js
+|   |   |   |       artifact.js
+|   |   |   |       browser.js
+|   |   |   |       browserContext.js
+|   |   |   |       browserType.js
+|   |   |   |       cdpSession.js
+|   |   |   |       channelOwner.js
+|   |   |   |       clientHelper.js
+|   |   |   |       clientInstrumentation.js
+|   |   |   |       clientStackTrace.js
+|   |   |   |       clock.js
+|   |   |   |       connect.js
+|   |   |   |       connection.js
+|   |   |   |       consoleMessage.js
+|   |   |   |       coverage.js
+|   |   |   |       debugger.js
+|   |   |   |       dialog.js
+|   |   |   |       disposable.js
+|   |   |   |       download.js
+|   |   |   |       electron.js
+|   |   |   |       elementHandle.js
+|   |   |   |       errors.js
+|   |   |   |       eventEmitter.js
+|   |   |   |       events.js
+|   |   |   |       fetch.js
+|   |   |   |       fileChooser.js
+|   |   |   |       fileUtils.js
+|   |   |   |       frame.js
+|   |   |   |       harRouter.js
+|   |   |   |       input.js
+|   |   |   |       jsHandle.js
+|   |   |   |       jsonPipe.js
+|   |   |   |       localUtils.js
+|   |   |   |       locator.js
+|   |   |   |       network.js
+|   |   |   |       page.js
+|   |   |   |       platform.js
+|   |   |   |       playwright.js
+|   |   |   |       screencast.js
+|   |   |   |       selectors.js
+|   |   |   |       stream.js
+|   |   |   |       timeoutSettings.js
+|   |   |   |       tracing.js
+|   |   |   |       types.js
+|   |   |   |       video.js
+|   |   |   |       waiter.js
+|   |   |   |       webError.js
+|   |   |   |       worker.js
+|   |   |   |       writableStream.js
+|   |   |   |       
+|   |   |   +---generated
+|   |   |   |       bindingsControllerSource.js
+|   |   |   |       clockSource.js
+|   |   |   |       injectedScriptSource.js
+|   |   |   |       pollingRecorderSource.js
+|   |   |   |       storageScriptSource.js
+|   |   |   |       utilityScriptSource.js
+|   |   |   |       webSocketMockSource.js
+|   |   |   |       
+|   |   |   +---protocol
+|   |   |   |       serializers.js
+|   |   |   |       validator.js
+|   |   |   |       validatorPrimitives.js
+|   |   |   |       
+|   |   |   +---remote
+|   |   |   |       playwrightConnection.js
+|   |   |   |       playwrightPipeServer.js
+|   |   |   |       playwrightServer.js
+|   |   |   |       playwrightWebSocketServer.js
+|   |   |   |       serverTransport.js
+|   |   |   |       
+|   |   |   +---server
+|   |   |   |   |   artifact.js
+|   |   |   |   |   browser.js
+|   |   |   |   |   browserContext.js
+|   |   |   |   |   browserType.js
+|   |   |   |   |   callLog.js
+|   |   |   |   |   clock.js
+|   |   |   |   |   console.js
+|   |   |   |   |   cookieStore.js
+|   |   |   |   |   debugController.js
+|   |   |   |   |   debugger.js
+|   |   |   |   |   deviceDescriptors.js
+|   |   |   |   |   deviceDescriptorsSource.json
+|   |   |   |   |   dialog.js
+|   |   |   |   |   disposable.js
+|   |   |   |   |   dom.js
+|   |   |   |   |   download.js
+|   |   |   |   |   errors.js
+|   |   |   |   |   fetch.js
+|   |   |   |   |   fileChooser.js
+|   |   |   |   |   fileUploadUtils.js
+|   |   |   |   |   formData.js
+|   |   |   |   |   frames.js
+|   |   |   |   |   frameSelectors.js
+|   |   |   |   |   harBackend.js
+|   |   |   |   |   helper.js
+|   |   |   |   |   index.js
+|   |   |   |   |   input.js
+|   |   |   |   |   instrumentation.js
+|   |   |   |   |   javascript.js
+|   |   |   |   |   launchApp.js
+|   |   |   |   |   localUtils.js
+|   |   |   |   |   macEditingCommands.js
+|   |   |   |   |   network.js
+|   |   |   |   |   overlay.js
+|   |   |   |   |   page.js
+|   |   |   |   |   pipeTransport.js
+|   |   |   |   |   playwright.js
+|   |   |   |   |   progress.js
+|   |   |   |   |   protocolError.js
+|   |   |   |   |   recorder.js
+|   |   |   |   |   screencast.js
+|   |   |   |   |   screenshotter.js
+|   |   |   |   |   selectors.js
+|   |   |   |   |   socksClientCertificatesInterceptor.js
+|   |   |   |   |   socksInterceptor.js
+|   |   |   |   |   transport.js
+|   |   |   |   |   types.js
+|   |   |   |   |   usKeyboardLayout.js
+|   |   |   |   |   videoRecorder.js
+|   |   |   |   |   
+|   |   |   |   +---android
+|   |   |   |   |       android.js
+|   |   |   |   |       backendAdb.js
+|   |   |   |   |       
+|   |   |   |   +---bidi
+|   |   |   |   |   |   bidiBrowser.js
+|   |   |   |   |   |   bidiChromium.js
+|   |   |   |   |   |   bidiConnection.js
+|   |   |   |   |   |   bidiDeserializer.js
+|   |   |   |   |   |   bidiExecutionContext.js
+|   |   |   |   |   |   bidiFirefox.js
+|   |   |   |   |   |   bidiInput.js
+|   |   |   |   |   |   bidiNetworkManager.js
+|   |   |   |   |   |   bidiOverCdp.js
+|   |   |   |   |   |   bidiPage.js
+|   |   |   |   |   |   bidiPdf.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---third_party
+|   |   |   |   |           bidiCommands.d.js
+|   |   |   |   |           bidiKeyboard.js
+|   |   |   |   |           bidiProtocol.js
+|   |   |   |   |           bidiProtocolCore.js
+|   |   |   |   |           bidiProtocolPermissions.js
+|   |   |   |   |           bidiSerializer.js
+|   |   |   |   |           firefoxPrefs.js
+|   |   |   |   |           
+|   |   |   |   +---chromium
+|   |   |   |   |       appIcon.png
+|   |   |   |   |       chromium.js
+|   |   |   |   |       chromiumSwitches.js
+|   |   |   |   |       crBrowser.js
+|   |   |   |   |       crConnection.js
+|   |   |   |   |       crCoverage.js
+|   |   |   |   |       crDevTools.js
+|   |   |   |   |       crDragDrop.js
+|   |   |   |   |       crExecutionContext.js
+|   |   |   |   |       crInput.js
+|   |   |   |   |       crNetworkManager.js
+|   |   |   |   |       crPage.js
+|   |   |   |   |       crPdf.js
+|   |   |   |   |       crProtocolHelper.js
+|   |   |   |   |       crServiceWorker.js
+|   |   |   |   |       defaultFontFamilies.js
+|   |   |   |   |       protocol.d.js
+|   |   |   |   |       
+|   |   |   |   +---codegen
+|   |   |   |   |       csharp.js
+|   |   |   |   |       java.js
+|   |   |   |   |       javascript.js
+|   |   |   |   |       jsonl.js
+|   |   |   |   |       language.js
+|   |   |   |   |       languages.js
+|   |   |   |   |       python.js
+|   |   |   |   |       types.js
+|   |   |   |   |       
+|   |   |   |   +---dispatchers
+|   |   |   |   |       androidDispatcher.js
+|   |   |   |   |       artifactDispatcher.js
+|   |   |   |   |       browserContextDispatcher.js
+|   |   |   |   |       browserDispatcher.js
+|   |   |   |   |       browserTypeDispatcher.js
+|   |   |   |   |       cdpSessionDispatcher.js
+|   |   |   |   |       debugControllerDispatcher.js
+|   |   |   |   |       debuggerDispatcher.js
+|   |   |   |   |       dialogDispatcher.js
+|   |   |   |   |       dispatcher.js
+|   |   |   |   |       disposableDispatcher.js
+|   |   |   |   |       electronDispatcher.js
+|   |   |   |   |       elementHandlerDispatcher.js
+|   |   |   |   |       frameDispatcher.js
+|   |   |   |   |       jsHandleDispatcher.js
+|   |   |   |   |       jsonPipeDispatcher.js
+|   |   |   |   |       localUtilsDispatcher.js
+|   |   |   |   |       networkDispatchers.js
+|   |   |   |   |       pageDispatcher.js
+|   |   |   |   |       playwrightDispatcher.js
+|   |   |   |   |       streamDispatcher.js
+|   |   |   |   |       tracingDispatcher.js
+|   |   |   |   |       webSocketRouteDispatcher.js
+|   |   |   |   |       writableStreamDispatcher.js
+|   |   |   |   |       
+|   |   |   |   +---electron
+|   |   |   |   |       electron.js
+|   |   |   |   |       loader.js
+|   |   |   |   |       
+|   |   |   |   +---firefox
+|   |   |   |   |       ffBrowser.js
+|   |   |   |   |       ffConnection.js
+|   |   |   |   |       ffExecutionContext.js
+|   |   |   |   |       ffInput.js
+|   |   |   |   |       ffNetworkManager.js
+|   |   |   |   |       ffPage.js
+|   |   |   |   |       firefox.js
+|   |   |   |   |       protocol.d.js
+|   |   |   |   |       
+|   |   |   |   +---har
+|   |   |   |   |       harRecorder.js
+|   |   |   |   |       harTracer.js
+|   |   |   |   |       
+|   |   |   |   +---recorder
+|   |   |   |   |       chat.js
+|   |   |   |   |       recorderApp.js
+|   |   |   |   |       recorderRunner.js
+|   |   |   |   |       recorderSignalProcessor.js
+|   |   |   |   |       recorderUtils.js
+|   |   |   |   |       throttledFile.js
+|   |   |   |   |       
+|   |   |   |   +---registry
+|   |   |   |   |       browserFetcher.js
+|   |   |   |   |       dependencies.js
+|   |   |   |   |       index.js
+|   |   |   |   |       nativeDeps.js
+|   |   |   |   |       oopDownloadBrowserMain.js
+|   |   |   |   |       
+|   |   |   |   +---trace
+|   |   |   |   |   +---recorder
+|   |   |   |   |   |       snapshotter.js
+|   |   |   |   |   |       snapshotterInjected.js
+|   |   |   |   |   |       tracing.js
+|   |   |   |   |   |       
+|   |   |   |   |   \---viewer
+|   |   |   |   |           traceViewer.js
+|   |   |   |   |           
+|   |   |   |   +---utils
+|   |   |   |   |   |   ascii.js
+|   |   |   |   |   |   comparators.js
+|   |   |   |   |   |   crypto.js
+|   |   |   |   |   |   debug.js
+|   |   |   |   |   |   debugLogger.js
+|   |   |   |   |   |   disposable.js
+|   |   |   |   |   |   env.js
+|   |   |   |   |   |   eventsHelper.js
+|   |   |   |   |   |   expectUtils.js
+|   |   |   |   |   |   fileUtils.js
+|   |   |   |   |   |   happyEyeballs.js
+|   |   |   |   |   |   hostPlatform.js
+|   |   |   |   |   |   httpServer.js
+|   |   |   |   |   |   linuxUtils.js
+|   |   |   |   |   |   network.js
+|   |   |   |   |   |   nodePlatform.js
+|   |   |   |   |   |   pipeTransport.js
+|   |   |   |   |   |   processLauncher.js
+|   |   |   |   |   |   profiler.js
+|   |   |   |   |   |   socksProxy.js
+|   |   |   |   |   |   spawnAsync.js
+|   |   |   |   |   |   task.js
+|   |   |   |   |   |   userAgent.js
+|   |   |   |   |   |   wsServer.js
+|   |   |   |   |   |   zipFile.js
+|   |   |   |   |   |   zones.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---image_tools
+|   |   |   |   |           colorUtils.js
+|   |   |   |   |           compare.js
+|   |   |   |   |           imageChannel.js
+|   |   |   |   |           stats.js
+|   |   |   |   |           
+|   |   |   |   \---webkit
+|   |   |   |           protocol.d.js
+|   |   |   |           webkit.js
+|   |   |   |           wkBrowser.js
+|   |   |   |           wkConnection.js
+|   |   |   |           wkExecutionContext.js
+|   |   |   |           wkInput.js
+|   |   |   |           wkInterceptableRequest.js
+|   |   |   |           wkPage.js
+|   |   |   |           wkProvisionalPage.js
+|   |   |   |           wkWorkers.js
+|   |   |   |           
+|   |   |   +---third_party
+|   |   |   |       pixelmatch.js
+|   |   |   |       
+|   |   |   +---tools
+|   |   |   |   |   exports.js
+|   |   |   |   |   
+|   |   |   |   +---backend
+|   |   |   |   |       browserBackend.js
+|   |   |   |   |       common.js
+|   |   |   |   |       config.js
+|   |   |   |   |       console.js
+|   |   |   |   |       context.js
+|   |   |   |   |       cookies.js
+|   |   |   |   |       devtools.js
+|   |   |   |   |       dialogs.js
+|   |   |   |   |       evaluate.js
+|   |   |   |   |       files.js
+|   |   |   |   |       form.js
+|   |   |   |   |       keyboard.js
+|   |   |   |   |       logFile.js
+|   |   |   |   |       mouse.js
+|   |   |   |   |       navigate.js
+|   |   |   |   |       network.js
+|   |   |   |   |       pdf.js
+|   |   |   |   |       response.js
+|   |   |   |   |       route.js
+|   |   |   |   |       runCode.js
+|   |   |   |   |       screenshot.js
+|   |   |   |   |       sessionLog.js
+|   |   |   |   |       snapshot.js
+|   |   |   |   |       storage.js
+|   |   |   |   |       tab.js
+|   |   |   |   |       tabs.js
+|   |   |   |   |       tool.js
+|   |   |   |   |       tools.js
+|   |   |   |   |       tracing.js
+|   |   |   |   |       utils.js
+|   |   |   |   |       verify.js
+|   |   |   |   |       video.js
+|   |   |   |   |       wait.js
+|   |   |   |   |       webstorage.js
+|   |   |   |   |       
+|   |   |   |   +---cli-client
+|   |   |   |   |   |   cli.js
+|   |   |   |   |   |   help.json
+|   |   |   |   |   |   minimist.js
+|   |   |   |   |   |   program.js
+|   |   |   |   |   |   registry.js
+|   |   |   |   |   |   session.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---skill
+|   |   |   |   |       |   SKILL.md
+|   |   |   |   |       |   
+|   |   |   |   |       \---references
+|   |   |   |   |               element-attributes.md
+|   |   |   |   |               playwright-tests.md
+|   |   |   |   |               request-mocking.md
+|   |   |   |   |               running-code.md
+|   |   |   |   |               session-management.md
+|   |   |   |   |               storage-state.md
+|   |   |   |   |               test-generation.md
+|   |   |   |   |               tracing.md
+|   |   |   |   |               video-recording.md
+|   |   |   |   |               
+|   |   |   |   +---cli-daemon
+|   |   |   |   |       command.js
+|   |   |   |   |       commands.js
+|   |   |   |   |       daemon.js
+|   |   |   |   |       helpGenerator.js
+|   |   |   |   |       program.js
+|   |   |   |   |       
+|   |   |   |   +---dashboard
+|   |   |   |   |       appIcon.png
+|   |   |   |   |       dashboardApp.js
+|   |   |   |   |       dashboardController.js
+|   |   |   |   |       
+|   |   |   |   +---mcp
+|   |   |   |   |       browserFactory.js
+|   |   |   |   |       cdpRelay.js
+|   |   |   |   |       cli-stub.js
+|   |   |   |   |       config.d.js
+|   |   |   |   |       config.js
+|   |   |   |   |       configIni.js
+|   |   |   |   |       extensionContextFactory.js
+|   |   |   |   |       index.js
+|   |   |   |   |       log.js
+|   |   |   |   |       program.js
+|   |   |   |   |       protocol.js
+|   |   |   |   |       watchdog.js
+|   |   |   |   |       
+|   |   |   |   +---trace
+|   |   |   |   |       installSkill.js
+|   |   |   |   |       SKILL.md
+|   |   |   |   |       traceActions.js
+|   |   |   |   |       traceAttachments.js
+|   |   |   |   |       traceCli.js
+|   |   |   |   |       traceConsole.js
+|   |   |   |   |       traceErrors.js
+|   |   |   |   |       traceOpen.js
+|   |   |   |   |       traceParser.js
+|   |   |   |   |       traceRequests.js
+|   |   |   |   |       traceScreenshot.js
+|   |   |   |   |       traceSnapshot.js
+|   |   |   |   |       traceUtils.js
+|   |   |   |   |       
+|   |   |   |   \---utils
+|   |   |   |       |   connect.js
+|   |   |   |       |   socketConnection.js
+|   |   |   |       |   
+|   |   |   |       \---mcp
+|   |   |   |               http.js
+|   |   |   |               server.js
+|   |   |   |               tool.js
+|   |   |   |               
+|   |   |   +---utils
+|   |   |   |   \---isomorphic
+|   |   |   |       |   ariaSnapshot.js
+|   |   |   |       |   assert.js
+|   |   |   |       |   colors.js
+|   |   |   |       |   cssParser.js
+|   |   |   |       |   cssTokenizer.js
+|   |   |   |       |   formatUtils.js
+|   |   |   |       |   headers.js
+|   |   |   |       |   imageUtils.js
+|   |   |   |       |   jsonSchema.js
+|   |   |   |       |   locatorGenerators.js
+|   |   |   |       |   locatorParser.js
+|   |   |   |       |   locatorUtils.js
+|   |   |   |       |   lruCache.js
+|   |   |   |       |   manualPromise.js
+|   |   |   |       |   mimeType.js
+|   |   |   |       |   multimap.js
+|   |   |   |       |   protocolFormatter.js
+|   |   |   |       |   protocolMetainfo.js
+|   |   |   |       |   rtti.js
+|   |   |   |       |   selectorParser.js
+|   |   |   |       |   semaphore.js
+|   |   |   |       |   stackTrace.js
+|   |   |   |       |   stringUtils.js
+|   |   |   |       |   time.js
+|   |   |   |       |   timeoutRunner.js
+|   |   |   |       |   types.js
+|   |   |   |       |   urlMatch.js
+|   |   |   |       |   utilityScriptSerializers.js
+|   |   |   |       |   yaml.js
+|   |   |   |       |   
+|   |   |   |       \---trace
+|   |   |   |           |   entries.js
+|   |   |   |           |   snapshotRenderer.js
+|   |   |   |           |   snapshotServer.js
+|   |   |   |           |   snapshotStorage.js
+|   |   |   |           |   traceLoader.js
+|   |   |   |           |   traceModel.js
+|   |   |   |           |   traceModernizer.js
+|   |   |   |           |   traceUtils.js
+|   |   |   |           |   
+|   |   |   |           \---versions
+|   |   |   |                   traceV3.js
+|   |   |   |                   traceV4.js
+|   |   |   |                   traceV5.js
+|   |   |   |                   traceV6.js
+|   |   |   |                   traceV7.js
+|   |   |   |                   traceV8.js
+|   |   |   |                   
+|   |   |   +---utilsBundleImpl
+|   |   |   |       index.js
+|   |   |   |       xdg-open
+|   |   |   |       
+|   |   |   \---vite
+|   |   |       +---dashboard
+|   |   |       |   |   index.html
+|   |   |       |   |   
+|   |   |       |   \---assets
+|   |   |       |           index-BAOybkp8.js
+|   |   |       |           index-CZAYOG76.css
+|   |   |       |           
+|   |   |       +---htmlReport
+|   |   |       |       index.html
+|   |   |       |       report.css
+|   |   |       |       report.js
+|   |   |       |       
+|   |   |       +---recorder
+|   |   |       |   |   index.html
+|   |   |       |   |   playwright-logo.svg
+|   |   |       |   |   
+|   |   |       |   \---assets
+|   |   |       |           codeMirrorModule-C8KMvO9L.js
+|   |   |       |           codeMirrorModule-DYBRYzYX.css
+|   |   |       |           codicon-DCmgc-ay.ttf
+|   |   |       |           index-BSjZa4pk.css
+|   |   |       |           index-CqAYX1I3.js
+|   |   |       |           
+|   |   |       \---traceViewer
+|   |   |           |   codeMirrorModule.DYBRYzYX.css
+|   |   |           |   codicon.DCmgc-ay.ttf
+|   |   |           |   defaultSettingsView.B4dS75f0.css
+|   |   |           |   index.C5466mMT.js
+|   |   |           |   index.CzXZzn5A.css
+|   |   |           |   index.html
+|   |   |           |   manifest.webmanifest
+|   |   |           |   playwright-logo.svg
+|   |   |           |   snapshot.html
+|   |   |           |   sw.bundle.js
+|   |   |           |   uiMode.Btcz36p_.css
+|   |   |           |   uiMode.html
+|   |   |           |   uiMode.Vipi55dB.js
+|   |   |           |   xtermModule.DYP7pi_n.css
+|   |   |           |   
+|   |   |           \---assets
+|   |   |                   codeMirrorModule-DS0FLvoc.js
+|   |   |                   defaultSettingsView-GTWI-W_B.js
+|   |   |                   xtermModule-CsJ4vdCR.js
+|   |   |                   
+|   |   \---types
+|   |           protocol.d.ts
+|   |           structs.d.ts
+|   |           types.d.ts
+|   |           
+|   \---undici-types
+|           agent.d.ts
+|           api.d.ts
+|           balanced-pool.d.ts
+|           cache-interceptor.d.ts
+|           cache.d.ts
+|           client-stats.d.ts
+|           client.d.ts
+|           connector.d.ts
+|           content-type.d.ts
+|           cookies.d.ts
+|           diagnostics-channel.d.ts
+|           dispatcher.d.ts
+|           env-http-proxy-agent.d.ts
+|           errors.d.ts
+|           eventsource.d.ts
+|           fetch.d.ts
+|           formdata.d.ts
+|           global-dispatcher.d.ts
+|           global-origin.d.ts
+|           h2c-client.d.ts
+|           handlers.d.ts
+|           header.d.ts
+|           index.d.ts
+|           interceptors.d.ts
+|           LICENSE
+|           mock-agent.d.ts
+|           mock-call-history.d.ts
+|           mock-client.d.ts
+|           mock-errors.d.ts
+|           mock-interceptor.d.ts
+|           mock-pool.d.ts
+|           package.json
+|           patch.d.ts
+|           pool-stats.d.ts
+|           pool.d.ts
+|           proxy-agent.d.ts
+|           readable.d.ts
+|           README.md
+|           retry-agent.d.ts
+|           retry-handler.d.ts
+|           round-robin-pool.d.ts
+|           snapshot-agent.d.ts
+|           util.d.ts
+|           utility.d.ts
+|           webidl.d.ts
+|           websocket.d.ts
+|           
++---playwright-report
+|   |   index.html
+|   |   
+|   +---data
+|   |       78485ad26ab49de2007fe98b0854715a58aaf5b6.png
+|   |       7bbb1bc277897a4e2cb25b96a88652dd054905da.zip
+|   |       
+|   \---trace
+|       |   codeMirrorModule.DYBRYzYX.css
+|       |   codicon.DCmgc-ay.ttf
+|       |   defaultSettingsView.B4dS75f0.css
+|       |   index.C5466mMT.js
+|       |   index.CzXZzn5A.css
+|       |   index.html
+|       |   manifest.webmanifest
+|       |   playwright-logo.svg
+|       |   snapshot.html
+|       |   sw.bundle.js
+|       |   uiMode.Btcz36p_.css
+|       |   uiMode.html
+|       |   uiMode.Vipi55dB.js
+|       |   xtermModule.DYP7pi_n.css
+|       |   
+|       \---assets
+|               codeMirrorModule-DS0FLvoc.js
+|               defaultSettingsView-GTWI-W_B.js
+|               
++---screenshots
+|       add to cart.png
+|       booking confirmation.png
+|       checkout.png
+|       checorder confirmation.png
+|       Create a new event.png
+|       Fill booking form.png
+|       Find the event card and capture seats.png
+|       signin.png
+|       verfiy cart.png
+|       Verify in My Bookings.png
+|       
++---test-results
+|   |   .last-run.json
+|   |   
+|   \---Apitesting-TestApi1-E2E-Flow-order-confirmation-chromium
+|           test-finished-1.png
+|           trace.zip
+|           
+\---tests
+    |   test-1.spec.ts
+    |   test-2.spec.ts
+    |   test-3.spec.ts
+    |   test-4.spec.ts
+    |   
+    +---Apitesting
+    |       Apiutils.js
+    |       TestApi1.spec.ts
+    |       
+    \---rahulshettyacademy
+            actions.ts
+            assignment1.spec.ts
+            client.spec.ts
+            
