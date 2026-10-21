@@ -6,6 +6,7 @@ on:
       - main
       - master
       - feature/github-actions-ci
+      - playwright-ci-cd
 
   pull_request:
     branches:
